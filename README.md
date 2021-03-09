@@ -1,16 +1,20 @@
 # climate_flutter_app
 
-A new Flutter application.
+A Weather Flutter application.
 
-## Getting Started
+## Specs
 
-This project is a starting point for a Flutter application.
+This project has 2 screens, first one shows weather in your current location, while second 
+screen let you write your city name to show weather info.
 
-A few resources to get you started if this is your first Flutter project:
+This project is using:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- https://openweathermap.org to get weather data using JSON.
+- I did it as a part of the complete flutter course on Udemy by Angela.
+- It is using API to get and update weather data.
+- These libraries were used geolocator: ^6.2.1 for getting user location, 
+http: ^0.13.0 for making network connecton , flutter_spinkit: ^4.1.2 for making 
+the loading indicator.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
